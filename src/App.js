@@ -7,7 +7,7 @@ import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
