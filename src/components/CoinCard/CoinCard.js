@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 
 
 const CoinCard = ({ coin }) => {
-   const {image,name,current_price} = coin;
-    
+   const {image,name,current_price,id} = coin;
     return (
         <div className='shadow-kg rounded-2xl w-[250px bg-white p-4'>
-            <Link to=''>
+            <Link to={`/coin-details/${id}`}>
             <div className='flex gap-4 justify-between items-center'>
                 <div className='flex-shrink-0'>
                     <img className='mx-auto object-cover rounded-full h-16 w-16' src={image} alt="" />
