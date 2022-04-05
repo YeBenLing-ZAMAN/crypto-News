@@ -21,7 +21,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href='https://dfadf'
+              href='https://dfadf' target={"_blank"}
               className='text-gray-400 hover:text-cyan-800 transition-colors duration-200'
             >
               <svg
@@ -36,7 +36,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href='https://github.com/YeBenLing-ZAMAN'
+              href='https://github.com/YeBenLing-ZAMAN' target={"_blank"}
               className='text-gray-400 hover:text-cyan-800 transition-colors duration-200'
             >
               <svg
@@ -51,7 +51,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href='https://linkdin.com'
+              href='https://linkdin.com' target={"_blank"}
               className='text-gray-400 hover:text-cyan-800 transition-colors duration-200'
             >
               <svg
@@ -66,7 +66,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href='https://amazon.com'
+              href='https://amazon.com' target={'_blank'}
               className='text-gray-400 hover:text-cyan-800 transition-colors duration-200'
             >
               <svg
