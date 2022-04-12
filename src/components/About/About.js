@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section class='px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2 bg-red-200'>
+        <section class='px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2 bg-cyan-200'>
             <div class='grid grid-cols-1 gap-24 md:grid-cols-2 px-16'>
                 <div>
                     <h1 class='mb-6 text-2xl font-light text-gray-900 md:text-3xl'>
